@@ -10,7 +10,7 @@ const App = () => {
   return (
     <StateProvider>
       <div className=" min-w-full min-h-screen flex justify-center items-center bg-slate-100 py-10">
-        <div className=" w-[60%] md:w-[50%] lg:w-[40%] flex flex-col justify-center items-center gap-10">
+        <div className=" w-[80%] md:w-[50%] lg:w-[40%] flex flex-col justify-center items-center gap-10">
           <Header />
           <Balance />
           <IncomeExpense />
